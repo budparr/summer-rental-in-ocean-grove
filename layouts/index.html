@@ -1,0 +1,24 @@
+{{ define "main" }}
+  <div class="flex flex-wrap">
+    <article class="w-100 w-50-l ph3 pv3 pv4-l f4 center measure-wide lh-copy mid-gray">
+      {{ range first 1 .Params.images }}
+        <img src="{{ . }}" alt="fl">
+      {{ end }}
+      <a href="#images">more images</a>
+
+    </article>
+    <div class="w-100 w-50-l ph3  pv3 pv4-l f4 center measure-wide lh-copy mid-gray">
+{{ .Content }}
+    </div>
+
+  </div>
+
+  <div id="images" class="flex flex-wrap">
+    {{ range after 1 .Params.images }}
+      <div class="w-100 w-50-l pa4">
+        <img src="{{ . }}" alt="" class="img">
+      </div>
+    {{ end }}
+  </div>
+  </div>
+  {{ end }}
