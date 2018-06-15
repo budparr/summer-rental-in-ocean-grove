@@ -1,5 +1,5 @@
-title = ""
-baseURL = "https://gohugo-ananke-theme-demo.netlify.com/"
+title = "Summer Rental"
+baseURL = "https://summer-rental-in-ocean-grove-nj.netlify.com/"
 languageCode = "en"
 theme = "gohugo-theme-ananke"
 disqusShortname = "ananke-demo"
@@ -10,10 +10,6 @@ Paginate = 3 # this is set low for demonstrating with dummy content. Set to a hi
 googleAnalytics = ""
 enableRobotsTXT = true
 disableKinds = ["page","section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
-[sitemap]
-  changefreq = "monthly"
-  priority = 0.5
-  filename = "sitemap.xml"
 
 [params]
   description = "Spacious and clean, modern Victorian with 4 bedrooms, 2 ½ baths that sleeps 8."
@@ -23,4 +19,4 @@ disableKinds = ["page","section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", 
   youtube = ""
   # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
   background_color_class = "bg-black"
-  featured_image = "/images/gohugo-default-sample-hero-image.jpg"
+  featured_image = "/uploads/house.jpg"
