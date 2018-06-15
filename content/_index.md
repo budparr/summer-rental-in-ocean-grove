@@ -24,3 +24,5 @@ Double front porches, back porch, small back yard and side yard with shaded eati
 Nicely furnished -- home was featured on the Fine Living Network.
 
 $2500/ week plus cleaning fee. No pets, no smoking. One week minimum rental.  Available Saturday-Saturday, July 13-20; July 28- August 4
+
+Contact Bonnie, 636.345.6206
